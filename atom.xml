@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-12-30T02:32:10.706Z</updated>
+  <updated>2018-01-02T02:03:30.394Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://yoursite.com/2017/12/30/markdown/"/>
     <id>http://yoursite.com/2017/12/30/markdown/</id>
     <published>2017-12-30T01:04:29.000Z</published>
-    <updated>2017-12-30T02:32:10.706Z</updated>
+    <updated>2018-01-02T02:03:30.394Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="markdown笔记"><a href="#markdown笔记" class="headerlink" title="markdown笔记"></a>markdown笔记</h1><p>Just for test</p><p>##1.<code>#</code>声明标题</p><pre><code># header 1## header 2### header 3</code></pre><p>##2.<code>```声明文本内容为代码</code>4个空格<code>或</code>tab`声明代码块<br>    like this<br>    like this<br>    like this</p><p>##3.<code>---</code>分割线(markdown 官方文档<code>***</code>好像不行)</p><hr><p>##4.文本格式<br>待施工</p><p><scrpit>alert(‘wow’)</scrpit></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="markdown笔记"><a href="#markdown笔记" class="headerlink" title="markdown笔记"></a>markdown笔记</h1><p>Just for test</p><p>##1.<code>#</code>声明标题</p><pre><code># header 1## header 2### header 3</code></pre><p>##2.声明文本内容为代码<br><code>4个空格</code>或<code>tab</code>声明代码块</p><pre><code>like thislike thislike this</code></pre><p>##3.<code>---</code>分割线(markdown 官方文档<code>***</code>好像不行)</p><hr><p>##4.文本格式<br>待施工</p><p><scrpit>alert(‘wow’)</scrpit></p>]]></content>
     
     <summary type="html">
     
