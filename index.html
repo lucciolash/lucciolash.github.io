@@ -165,18 +165,27 @@
     <div class="article-entry" itemprop="articleBody">
       
         <h1 id="markdown笔记"><a href="#markdown笔记" class="headerlink" title="markdown笔记"></a>markdown笔记</h1><p>Just for test</p>
-<p>##1.<code>#</code>声明标题</p>
-<pre><code># header 1
-## header 2
-### header 3
-</code></pre><p>##2.声明文本内容为代码<br><code>4个空格</code>或<code>tab</code>声明代码块</p>
-<pre><code>like this
-like this
-like this
-</code></pre><p>##3.<code>---</code>分割线(markdown 官方文档<code>***</code>好像不行)</p>
+<p>##常用语法</p>
+<p>###标题<br>在文本前输入#用于声明标题，随数量增加级别递减；</p>
+<p>###粗体<br>在内容两侧分别加<strong>2个星号</strong>，**文本内容**；<strong>示例</strong></p>
+<p>###斜体<br>在内容两侧分别加<strong>1个星号</strong>，*文本内容*；<em>示例</em></p>
+<p>###删除线<br>在内容两侧分别加<strong>2个波浪线</strong>，~~文本内容~~;<del>示例</del></p>
+<p>###分割线<br>使用<strong>3个星号</strong>或者<strong>3个小短线</strong>，使用3个小短线会强制把上一行内容设置为2级标题;</p>
+<h2 id="3个星号"><a href="#3个星号" class="headerlink" title="3个星号"></a><code>3个星号</code></h2><p><code>3个星号</code></p>
 <hr>
-<p>##4.文本格式<br>待施工</p>
-<p><scrpit>alert(‘wow’)</scrpit></p>
+<p>###外链<br>使用<code>**\[描述](链接地址)**</code>格式添加外链；<br>示例：<a href="about:blank" target="_blank" rel="noopener">空白页</a></p>
+<p>###单行代码<br>在内容两侧分别加<strong>2个`(一称小句号)</strong>，`文本内容`;<code>示例</code></p>
+<p>###多行代码<br>在内容两侧分别加<strong>3个`</strong>，```文本内容```;<br>(需要在文本后多换一行)  </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">我有行号  </span><br><span class="line">我有行号  </span><br><span class="line">我有行号</span><br></pre></td></tr></table></figure>
+<p>或者换新行，然后在段落头输入<strong><code>Tab</code></strong>，或<strong><code>4个空格</code></strong>  </p>
+<pre><code>我没有行号
+我没有行号
+我没有行号
+</code></pre><p>###引入内容<br>在内容前添加<strong>></strong>表示引入内容；</p>
+<blockquote>
+<p>示例  </p>
+</blockquote>
+<p>###插入图片<br>使用<code>**\![描述](链接地址)**</code>插入图片；<br><img src="/assets/img/end.jpeg" alt="没有"><br><img src="/assets/img/end.jpeg" onmouseover="alert('nothing else');alert('thanks')"></p>
 
       
 
